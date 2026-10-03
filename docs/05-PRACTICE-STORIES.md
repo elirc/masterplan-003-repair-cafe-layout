@@ -129,3 +129,83 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Left for you:** exact fixture values, names, wording, the implementation and the tradeoff decision. Do not open the hints until you have an example and a first attempt.
 
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
+
+<!-- expanded-story-clinics -->
+
+## Additional planning checkpoints for stories 01–06
+
+[Nine more stories, 07–15](11-NINE-MORE-STORIES.md) · [Expanded workshop map](WORKBOOK-INDEX.md)
+
+Keep the original plans above. The following checkpoints add implementation and review depth without completing the exercise for you.
+
+### Story 01 planning clinic: Add a fourth station
+
+**Before editing:** restate the boundary in your own words: Add one station using the same semantic structure and no special width. Identify the part of `public/style.css` or `public/index.html and public/style.css` that owns it. If your proposed design changes another owner, explain the dependency instead of opening every file for a broad rewrite.
+
+**Acceptance matrix:** write ordinary, boundary and repeat/recovery rows that establish “It wraps naturally at all inspected widths.” Include exact starting data or content and the expected retained information. Calculate expected values or inspect meaningful source order independently of the proposed implementation.
+
+**First implementation slice:** make only enough of the change to demonstrate one acceptance row. Inspect the diff and predict the next row before running it. If your first slice is mostly setup or abstraction with no observable result, consider a smaller direct route.
+
+**Review challenge:** sketch a plausible wrong solution that would pass a casual demonstration. Choose a counterexample that exposes its specific weakness. Ask an assistant to critique that example rather than immediately asking it to finish the entire feature.
+
+**Evidence and explanation:** use npm test (local asset references), plus the relevant browser/content observation. Record the actual observation and the limit of the check. Finish by naming a design decision you made yourself and explaining why the neighboring original behavior still holds.
+
+### Story 02 planning clinic: Add a closed-state label
+
+**Before editing:** restate the boundary in your own words: Represent a closed station with text as well as a visual style. Identify the part of `public/style.css` or `public/index.html and public/style.css` that owns it. If your proposed design changes another owner, explain the dependency instead of opening every file for a broad rewrite.
+
+**Acceptance matrix:** write ordinary, boundary and repeat/recovery rows that establish “Its state is understandable without color and its card still participates in layout.” Include exact starting data or content and the expected retained information. Calculate expected values or inspect meaningful source order independently of the proposed implementation.
+
+**First implementation slice:** make only enough of the change to demonstrate one acceptance row. Inspect the diff and predict the next row before running it. If your first slice is mostly setup or abstraction with no observable result, consider a smaller direct route.
+
+**Review challenge:** sketch a plausible wrong solution that would pass a casual demonstration. Choose a counterexample that exposes its specific weakness. Ask an assistant to critique that example rather than immediately asking it to finish the entire feature.
+
+**Evidence and explanation:** use npm test (local asset references), plus the relevant browser/content observation. Record the actual observation and the limit of the check. Finish by naming a design decision you made yourself and explaining why the neighboring original behavior still holds.
+
+### Story 03 planning clinic: Test the single-station day
+
+**Before editing:** restate the boundary in your own words: Create a separate fixture page or documented developer-tools procedure containing one station. Identify the part of `public/style.css` or `public/index.html and public/style.css` that owns it. If your proposed design changes another owner, explain the dependency instead of opening every file for a broad rewrite.
+
+**Acceptance matrix:** write ordinary, boundary and repeat/recovery rows that establish “The remaining card is readable and does not cause overflow.” Include exact starting data or content and the expected retained information. Calculate expected values or inspect meaningful source order independently of the proposed implementation.
+
+**First implementation slice:** make only enough of the change to demonstrate one acceptance row. Inspect the diff and predict the next row before running it. If your first slice is mostly setup or abstraction with no observable result, consider a smaller direct route.
+
+**Review challenge:** sketch a plausible wrong solution that would pass a casual demonstration. Choose a counterexample that exposes its specific weakness. Ask an assistant to critique that example rather than immediately asking it to finish the entire feature.
+
+**Evidence and explanation:** use npm test (local asset references), plus the relevant browser/content observation. Record the actual observation and the limit of the check. Finish by naming a design decision you made yourself and explaining why the neighboring original behavior still holds.
+
+### Story 04 planning clinic: Improve time semantics
+
+**Before editing:** restate the boundary in your own words: Wrap opening and closing times in appropriate time elements. Identify the part of `public/style.css` or `public/index.html and public/style.css` that owns it. If your proposed design changes another owner, explain the dependency instead of opening every file for a broad rewrite.
+
+**Acceptance matrix:** write ordinary, boundary and repeat/recovery rows that establish “The visible time is clear and machine-readable values match it.” Include exact starting data or content and the expected retained information. Calculate expected values or inspect meaningful source order independently of the proposed implementation.
+
+**First implementation slice:** make only enough of the change to demonstrate one acceptance row. Inspect the diff and predict the next row before running it. If your first slice is mostly setup or abstraction with no observable result, consider a smaller direct route.
+
+**Review challenge:** sketch a plausible wrong solution that would pass a casual demonstration. Choose a counterexample that exposes its specific weakness. Ask an assistant to critique that example rather than immediately asking it to finish the entire feature.
+
+**Evidence and explanation:** use npm test (local asset references), plus the relevant browser/content observation. Record the actual observation and the limit of the check. Finish by naming a design decision you made yourself and explaining why the neighboring original behavior still holds.
+
+### Story 05 planning clinic: Tune spacing without changing behavior
+
+**Before editing:** restate the boundary in your own words: Change the gap and card padding, then compare the wrapping point. Identify the part of `public/style.css` or `public/index.html and public/style.css` that owns it. If your proposed design changes another owner, explain the dependency instead of opening every file for a broad rewrite.
+
+**Acceptance matrix:** write ordinary, boundary and repeat/recovery rows that establish “Your explanation accounts for both card widths and inter-card space.” Include exact starting data or content and the expected retained information. Calculate expected values or inspect meaningful source order independently of the proposed implementation.
+
+**First implementation slice:** make only enough of the change to demonstrate one acceptance row. Inspect the diff and predict the next row before running it. If your first slice is mostly setup or abstraction with no observable result, consider a smaller direct route.
+
+**Review challenge:** sketch a plausible wrong solution that would pass a casual demonstration. Choose a counterexample that exposes its specific weakness. Ask an assistant to critique that example rather than immediately asking it to finish the entire feature.
+
+**Evidence and explanation:** use npm test (local asset references), plus the relevant browser/content observation. Record the actual observation and the limit of the check. Finish by naming a design decision you made yourself and explaining why the neighboring original behavior still holds.
+
+### Story 06 planning clinic: Create a content stress fixture
+
+**Before editing:** restate the boundary in your own words: Add one intentionally long but readable description in a practice branch. Identify the part of `public/style.css` or `public/index.html and public/style.css` that owns it. If your proposed design changes another owner, explain the dependency instead of opening every file for a broad rewrite.
+
+**Acceptance matrix:** write ordinary, boundary and repeat/recovery rows that establish “The page handles uneven content without fixed card heights or clipped text.” Include exact starting data or content and the expected retained information. Calculate expected values or inspect meaningful source order independently of the proposed implementation.
+
+**First implementation slice:** make only enough of the change to demonstrate one acceptance row. Inspect the diff and predict the next row before running it. If your first slice is mostly setup or abstraction with no observable result, consider a smaller direct route.
+
+**Review challenge:** sketch a plausible wrong solution that would pass a casual demonstration. Choose a counterexample that exposes its specific weakness. Ask an assistant to critique that example rather than immediately asking it to finish the entire feature.
+
+**Evidence and explanation:** use npm test (local asset references), plus the relevant browser/content observation. Record the actual observation and the limit of the check. Finish by naming a design decision you made yourself and explaining why the neighboring original behavior still holds.
