@@ -1,0 +1,23 @@
+{
+  "recordedAt": "2026-10-03T22:01:40.534370+00:00",
+  "nodeVersion": "v22.16.0",
+  "nodeChecks": {
+    "command": "node tools/check-site.mjs",
+    "exitCode": 0,
+    "tests": null,
+    "output": "PASS: 1 local page/asset links exist. Follow docs/VERIFICATION.md for browser checks.\n"
+  },
+  "browserChecks": {
+    "id": 3,
+    "status": "passed",
+    "checks": [
+      "No document horizontal overflow at 1200, 800, 500 and 320 CSS pixels",
+      "First Tab exposes skip link; Enter transfers focus to main",
+      "Flex layout handles long station name, uneven text and one remaining card"
+    ],
+    "browser": "Installed Microsoft Edge via Playwright",
+    "checkedAt": "2026-10-03T21:55:04.451214+00:00",
+    "consoleErrors": []
+  },
+  "scope": "Actual local reference verification. Learner stories are not implemented. Remote CI results are separate."
+}
