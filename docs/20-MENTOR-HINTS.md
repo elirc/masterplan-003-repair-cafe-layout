@@ -104,9 +104,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Show shared equipment per station.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Add a short semantic list inside a card; allow wrapping; compare cards with one and many tools.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Add a short semantic list inside a card; allow wrapping; compare cards with one and many tools. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Equipment text never forces fixed heights or hides the preparation note.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Equipment text never forces fixed heights or hides the preparation note. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose the list presentation. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -114,9 +114,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Help visitors choose a station.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Add a textual skill label; style it consistently; inspect layout without color and with long text.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Add a textual skill label; style it consistently; inspect layout without color and with long text. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Every label stays readable and card wrapping is unchanged.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Every label stays readable and card wrapping is unchanged. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose the allowed label vocabulary. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -124,9 +124,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Handle incomplete optional content honestly.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Create a fixture without a note; inspect the column layout; choose an explicit absent-note policy.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Create a fixture without a note; inspect the column layout; choose an explicit absent-note policy. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: No empty decorative block is mistaken for missing required instructions.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: No empty decorative block is mistaken for missing required instructions. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose omission or a short fallback. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -134,9 +134,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Provide a descriptive route to ask about one station.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Place the link in the card's reading order; keep purpose specific; inspect focus when cards wrap.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Place the link in the card's reading order; keep purpose specific; inspect focus when cards wrap. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Links remain reachable in source order at wide and narrow widths.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Links remain reachable in source order at wide and narrow widths. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose where contact belongs within each card. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -144,9 +144,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Learn which element owns inter-card spacing.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Build a scratch margin-based variant; calculate outer-edge effects; compare it with container gap.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Build a scratch margin-based variant; calculate outer-edge effects; compare it with container gap. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: The worksheet explains both internal spacing and the container edges.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: The worksheet explains both internal spacing and the container edges. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose a fixture width that reveals the difference. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -154,9 +154,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Explain labels such as open or full.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Create a small key before the cards; reuse exact status words; keep meanings independent of color.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Create a small key before the cards; reuse exact status words; keep meanings independent of color. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: A reader can interpret a card without seeing its badge color.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: A reader can interpret a card without seeing its badge color. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose two useful fictional statuses. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -164,9 +164,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Probe wrapping beyond a single neat row.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Add two uneven cards in a practice page; inspect the final row; compare grow behavior with earlier rows.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Add two uneven cards in a practice page; inspect the final row; compare grow behavior with earlier rows. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: The last row is readable and no card depends on its numerical position.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: The last row is readable and no card depends on its numerical position. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose the final-row growth policy. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -174,9 +174,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Make the station list readable on paper.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Inspect print preview first; reduce unnecessary decorative space; preserve every station and time.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Inspect print preview first; reduce unnecessary decorative space; preserve every station and time. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Printing does not crop a note or require background colors to explain state.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Printing does not crop a note or require background colors to explain state. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose acceptable page breaks. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -184,9 +184,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Help a reviewer change one layout concern at a time.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Annotate outer and inner flex rules in a worksheet; propose one change per owner; predict interactions.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Annotate outer and inner flex rules in a worksheet; propose one change per owner; predict interactions. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Each explanation names a concrete property and the box it affects.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Each explanation names a concrete property and the box it affects. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose an example where both owners matter. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 

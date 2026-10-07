@@ -1,7 +1,6 @@
 # Reading sources and provenance
 
 - [MDN Flexbox overview](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout): platform terminology related to the main lesson.
-- [Node test runner](https://nodejs.org/api/test.html): the built-in runner used for executable reference checks.
 - [GitHub checkout action](https://github.com/actions/checkout) and [setup-node action](https://github.com/actions/setup-node): official workflow setup references, checked on 2026-10-03.
 - [UI-III-Flexbox](https://github.com/elirc/UI-III-Flexbox): the existing curriculum pairing. This repository is a new small implementation, not a copied source snapshot.
 

@@ -14,29 +14,29 @@ The smallest useful result answers this user need: A volunteer needs to scan thr
 
 Each station is an article with an opening time, heading, explanation and preparation note. Keep one understandable card working before copying the structure twice. Repetition is useful here because it exposes differences in content length. It is not a reason to introduce a component framework before you understand what repeats.
 
-**Pause and produce evidence:** Three short cards at desktop width. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** Only one card remains. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 2: Give the parent a job
 
 The stations rule controls wrapping, gap and alignment. Its children express a preferred basis and permission to grow or shrink. Draw a row with three hypothetical 260px cards, then account for gaps and container width. This simple sketch predicts when wrapping should occur more reliably than guessing a device-specific breakpoint.
 
-**Pause and produce evidence:** One very long heading at 320px. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** Three short cards at desktop width. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 3: Give the child a separate job
 
 Each card is a column. The station note uses automatic top margin to consume spare vertical space after the description. Compare this with adding a fixed top margin: fixed spacing does not adapt when one description becomes much longer. If there is no spare room, auto margin does not manufacture it.
 
-**Pause and produce evidence:** Only one card remains. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** Uneven descriptions. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 4: Disturb the ideal example
 
 Remove two cards in browser developer tools, make one heading an unbroken string, and increase one description. The learning target is resilience under changing content, not matching a single screenshot. The saved reference remains unchanged by these temporary probes. Use the evidence notes to distinguish those runtime probes from source changes you commit yourself.
 
-**Pause and produce evidence:** Uneven descriptions. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** One very long heading at 320px. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Keep the implementation reviewable
 
-A useful commit has one understandable reason to exist. Separate the initial working slice, the checks that expose its important boundaries, and the teaching material that explains it. The published commits in this repository were assembled from verified working files; they are real commits, not fabricated evidence of a long historical development process. M001 additionally contains the actual two-file baseline and a separate opening-time correction.
+A useful commit has one understandable reason to exist. Separate the initial working slice, the checks that expose its important boundaries, and the teaching material that explains it. The published commits in this repository were assembled from verified working files; they are real commits, not fabricated evidence of a long historical development process.
 
 For your own variation, commit at a point where the behavior and evidence agree. Describe the trigger, the resulting behavior and the check in the commit message or review note. Avoid mixing a rule change with unrelated formatting because it makes the learning decision harder to see.
 

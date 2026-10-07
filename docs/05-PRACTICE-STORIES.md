@@ -6,8 +6,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 01: Add a fourth station
 
-**User need:** As a learner or user of Repair Cafe Layout, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Add one station using the same semantic structure and no special width.
 
 **Implementation plan:**
@@ -26,8 +24,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 02: Add a closed-state label
-
-**User need:** As a learner or user of Repair Cafe Layout, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Represent a closed station with text as well as a visual style.
 
@@ -48,8 +44,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 03: Test the single-station day
 
-**User need:** As a learner or user of Repair Cafe Layout, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Create a separate fixture page or documented developer-tools procedure containing one station.
 
 **Implementation plan:**
@@ -68,8 +62,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 04: Improve time semantics
-
-**User need:** As a learner or user of Repair Cafe Layout, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Wrap opening and closing times in appropriate time elements.
 
@@ -90,8 +82,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 05: Tune spacing without changing behavior
 
-**User need:** As a learner or user of Repair Cafe Layout, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Change the gap and card padding, then compare the wrapping point.
 
 **Implementation plan:**
@@ -110,8 +100,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 06: Create a content stress fixture
-
-**User need:** As a learner or user of Repair Cafe Layout, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Add one intentionally long but readable description in a practice branch.
 

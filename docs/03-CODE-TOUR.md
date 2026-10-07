@@ -6,7 +6,7 @@
 |---|---|
 | [package.json](../package.json) | Names the module format, Node requirement and local commands; private prevents npm publication. |
 | [.github/workflows/check.yml](../.github/workflows/check.yml) | Runs the committed checks on GitHub. A workflow file is not evidence that a remote run succeeded. |
-| [public/index.html](../public/index.html) | Semantic content, controls and explicit IDs. |
+| [public/index.html](../public/index.html) | Semantic station content: three `article.card` stations with time tags, descriptions and notes. |
 | [public/style.css](../public/style.css) | Presentation, focus indication and project-specific layout. |
 | [tools/serve.mjs](../tools/serve.mjs) | Local preview infrastructure; only public/ is served. |
 | [tools/check-site.mjs](../tools/check-site.mjs) | Checks referenced local assets exist, without pretending to judge usability. |
@@ -15,7 +15,7 @@
 
 Start at [public/style.css](../public/style.css) and locate `.stations and .station-note`. Use this trace as a map: The stations container becomes a wrapping flex row → each card starts with a 260px basis → available room controls growth and wrapping → each card is also a column → margin-top:auto pushes its station note toward the bottom.
 
-The tooling is intentionally separate from the product concept. You can study the local server or CI after the main rule is clear. Neither an HTTP preview server nor a workflow configuration should become a prerequisite for understanding an inline-block box or a small pure function.
+The tooling is intentionally separate from the product concept. You can study the local server or CI after the main rule is clear. Neither an HTTP preview server nor a workflow configuration should become a prerequisite for understanding a layout rule.
 
 ## Decision: Use a wrapping container
 
@@ -43,9 +43,9 @@ The outer row distributes cards. Each card’s own column layout separates its d
 
 ## Change boundaries
 
-A small change should begin in the file that owns its meaning. Change domain rules in the core, wording and interaction in the browser adapter, and layout in the relevant CSS rule. For the static references, semantic information belongs in HTML before styling. For the Git reference, the staged snapshot boundary belongs in the helper rather than being guessed from editor state.
+A small change should begin in the file that owns its meaning. Semantic information belongs in HTML before styling; layout belongs in the relevant CSS rule.
 
-If a story crosses two files, say why. A new unit, weather option or UI station may require a contract, a control and tests to change together. That is a coherent feature boundary, not permission to rewrite unrelated parts of the project.
+If a story crosses two files, say why. A new section may require markup, a navigation link or a layout rule to change together. That is a coherent feature boundary, not permission to rewrite unrelated parts of the project.
 
 ## Deliberate limits
 

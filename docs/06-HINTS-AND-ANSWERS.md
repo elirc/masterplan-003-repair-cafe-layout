@@ -6,7 +6,7 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 ## Story 01: Add a fourth station
 
-**Hint 1 — ownership:** Begin from `.stations and .station-note`. Add one station using the same semantic structure and no special width.
+**Hint 1 — ownership:** Begin from the `.stations` container and one `article.card` in `public/index.html`. Add one station using the same semantic structure and no special width.
 
 **Hint 2 — reasoning:** Revisit the decision “Use a wrapping container”. Ask yourself: Explain why the container owns wrapping instead of each individual card.
 
@@ -16,9 +16,9 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 ## Story 02: Add a closed-state label
 
-**Hint 1 — ownership:** Begin from `.stations and .station-note`. Represent a closed station with text as well as a visual style.
+**Hint 1 — ownership:** Begin from the `.tag` and heading inside one `article.card`. Represent a closed station with text as well as a visual style.
 
-**Hint 2 — reasoning:** Revisit the decision “Allow cards to shrink”. Ask yourself: Find the difference between a preferred flex basis and a rigid width.
+**Hint 2 — reasoning:** Revisit the decision “Use nested layout for a different responsibility”. Ask yourself: Explain why margin-top:auto works only when there is free space to absorb.
 
 **Answer direction:** A defensible solution demonstrates this observable result: Its state is understandable without color and its card still participates in layout. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 
@@ -26,9 +26,9 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 ## Story 03: Test the single-station day
 
-**Hint 1 — ownership:** Begin from `.stations and .station-note`. Create a separate fixture page or documented developer-tools procedure containing one station.
+**Hint 1 — ownership:** Begin from the `.stations .card` flex basis in `public/style.css`. Create a separate fixture page or documented developer-tools procedure containing one station.
 
-**Hint 2 — reasoning:** Revisit the decision “Use nested layout for a different responsibility”. Ask yourself: Explain why margin-top:auto works only when there is free space to absorb.
+**Hint 2 — reasoning:** Revisit the decision “Allow cards to shrink”. Ask yourself: Find the difference between a preferred flex basis and a rigid width.
 
 **Answer direction:** A defensible solution demonstrates this observable result: The remaining card is readable and does not cause overflow. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 
@@ -36,9 +36,9 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 ## Story 04: Improve time semantics
 
-**Hint 1 — ownership:** Begin from `.stations and .station-note`. Wrap opening and closing times in appropriate time elements.
+**Hint 1 — ownership:** Begin from the `.tag` time ranges in `public/index.html`. Wrap opening and closing times in appropriate time elements.
 
-**Hint 2 — reasoning:** Revisit the decision “Use a wrapping container”. Ask yourself: Explain why the container owns wrapping instead of each individual card.
+**Hint 2 — reasoning:** Revisit the decision “Use nested layout for a different responsibility”. Ask yourself: Explain why margin-top:auto works only when there is free space to absorb.
 
 **Answer direction:** A defensible solution demonstrates this observable result: The visible time is clear and machine-readable values match it. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 
@@ -46,9 +46,9 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 ## Story 05: Tune spacing without changing behavior
 
-**Hint 1 — ownership:** Begin from `.stations and .station-note`. Change the gap and card padding, then compare the wrapping point.
+**Hint 1 — ownership:** Begin from the `gap` on `.stations` and the card padding. Change the gap and card padding, then compare the wrapping point.
 
-**Hint 2 — reasoning:** Revisit the decision “Allow cards to shrink”. Ask yourself: Find the difference between a preferred flex basis and a rigid width.
+**Hint 2 — reasoning:** Revisit the decision “Use a wrapping container”. Ask yourself: Explain why the container owns wrapping instead of each individual card.
 
 **Answer direction:** A defensible solution demonstrates this observable result: Your explanation accounts for both card widths and inter-card space. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 
